@@ -1,0 +1,44 @@
+
+<!DOCTYPE html> 
+<html>
+<head>
+  <title>MYGAME</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="startScreen">
+    <h1>CMCVU</h1>
+    <div class="input-group">
+      <input type="text" id="username" placeholder="Enter username">
+      <select id="version">
+        <option value="1.0">v1.0</option>
+        <option value="1.1">v1.1</option>
+        <option value="1.2">v1.2</option>
+        <option value="1.4">v1.4</option>
+        <option value="1.5.1" selected>v1.5.1</option>
+      </select>
+    </div>
+    <button onclick="startGame()">Start Game</button>
+  </div>
+  <div id="gameScreen" style="display: none;">
+    <canvas id="gameCanvas"></canvas>
+    <div id="gameInfo">
+      <span>Username: <span id="playerName"></span></span>
+      <span>Level: <span id="levelDisplay">1</span>/100</span>
+    </div>
+    <div id="leaderboard" class="leaderboard"></div>
+    <div id="chatContainer">
+      <div id="chatMessages"></div>
+      <input type="text" id="chatInput" placeholder="Press Enter to chat...">
+    </div>
+  </div>
+</body>
+  <!-- Link to CSS file in assets/css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Link to JS file in assets/js -->
+  <script src="assets/js/script.js"></script>
+  
+  <script src="plugins/CMCVUframechanger.js"></script>
+
+</html>
