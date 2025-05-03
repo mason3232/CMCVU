@@ -1,0 +1,1 @@
+ok so yes this game is multiplayer and there is some many bugs that im planning on fixing in the feature and if you want you can check different updates in the game and also i will be lisining to see if you want any different things in the game that i most likely wont be able to add but i will try love you all
