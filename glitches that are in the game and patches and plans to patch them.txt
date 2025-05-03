@@ -1,1 +1,0 @@
-there is a bug where if you say something in chat there is an insanely high chance it does not go to the other clients screen so 70% of the time only you will see them and if you dont see the one you said that means they saw it
